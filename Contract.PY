@@ -178,4 +178,4 @@ class ProphetMarket(gl.contract.Contract):
 
     @gl.public.view
     def get_owner(self) -> str:
-        return self.owner 
+        return self.owner
